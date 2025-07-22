@@ -10,7 +10,7 @@ European Journal of Operational Research, Elsevier, vol. 321(3), pages 837-850.
 
 关键词：路径-选址问题；不确定旅行时间；延迟（latency）;随机规划; VNS算法; 风险测度
 
-延迟选址-路径问题（LLRP）：给定一组客户和潜在 depot 位置，目标是确定 depot 的开设位置并设计服务客户的路径，以最小化客户到达时间的总和（即延迟）。
+延迟选址-路径问题（location-routing，LLRP）：给定一组客户和潜在 depot 位置，目标是确定 depot 的开设位置并设计服务客户的路径，以最小化客户到达时间的总和（即延迟）。
 本文的问题设定具有以下特征：
 （i）使用一队同质有容量车辆；
 （ii）存在一组潜在无容量 depot；
@@ -18,4 +18,6 @@ European Journal of Operational Research, Elsevier, vol. 321(3), pages 837-850.
 （iv）每个客户有非负需求，需由单辆车辆一次性满足；
 （v）路径为“开放式”，即车辆在访问最后一个客户后结束行程。
 （vi）旅行时间不确定（通过scenario刻画）
-以下是求解算法的框架
+
+以下是求解算法的框架，抛开特别的latency作为目标函数以及随机旅行时间，整个算法框架也可以用来求解其他类似的LRP问题，例如把目标函数换成其他的函数，场景数由多个缩减至一个其实就是一个确定性问题。
+![framework.png]

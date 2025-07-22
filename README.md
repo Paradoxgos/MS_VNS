@@ -20,4 +20,4 @@ European Journal of Operational Research, Elsevier, vol. 321(3), pages 837-850.
 （vi）旅行时间不确定（通过scenario刻画）
 
 以下是求解算法的框架，抛开特别的latency作为目标函数以及随机旅行时间，整个算法框架也可以用来求解其他类似的LRP问题，例如把目标函数换成其他的函数，场景数由多个缩减至一个其实就是一个确定性问题。
-![framework.png]
+![算法框架](framework.png)
